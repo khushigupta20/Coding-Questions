@@ -19,7 +19,7 @@ int trap(int *heights, int n)
   {
     int currWater = min(leftMax[i], rightMax[i]) - heights[i];
     if(currWater > 0)
-      waterTrapper += currwater;
+      waterTrapped += currWater;
   }
   return waterTrapped;
 }
